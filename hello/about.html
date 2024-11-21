@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - E-Commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* About page styles */
+.about-container {
+    max-width: 800px;
+    margin: 50px auto; /* Center the content */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h2 {
+    text-align: center; /* Center the heading */
+    color: #007BFF; /* Heading color */
+    margin-bottom: 20px;
+    font-size: 2em; /* Larger font size */
+    letter-spacing: 1px; /* Space between letters */
+    text-shadow: 
+        1px 1px 0 rgba(255, 255, 255, 0.9), /* White shadow */
+        -1px -1px 0 rgba(255, 255, 255, 0.9), /* White shadow */
+        1px -1px 0 rgba(255, 255, 255, 0.9), /* White shadow */
+        -1px 1px 0 rgba(255, 255, 255, 0.9), /* White shadow */
+        1px 1px 2px rgba(0, 0, 0, 0.5); /* Dark shadow for stroke effect */
+    transition: transform 0.3s; /* Transition for hover effect */
+}
+
+.about-container h2:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.about-container p {
+    line-height: 1.6; /* Improve readability */
+    margin: 15px 0; /* Space between paragraphs */
+    color: #333; /* Text color */
+    transition: color 0.3s; /* Transition for hover effect */
+}
+
+.about-container p:hover {
+    color: #007BFF; /* Change text color on hover */
+    text-shadow: 
+        1px 1px 0 rgba(255, 255, 255, 0.9), /* White shadow */
+        -1px -1px 0 rgba(255, 255, 255, 0.9), /* White shadow */
+        1px -1px 0 rgba(255, 255, 255, 0.9), /* White shadow */
+        -1px 1px 0 rgba(255, 255, 255, 0.9), /* White shadow */
+        1px 1px 2px rgba(0, 0, 0, 0.5); /* Dark shadow for stroke effect */
+}
+
+/* Navigation styles (for consistency) */
+nav {
+    margin-top: 20px;
+}
+
+.nav-links {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Flexbox for horizontal alignment */
+    gap: 15px; /* Space between links */
+}
+
+.nav-btn {
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text for links */
+    font-weight: bold; /* Bold links */
+    padding: 10px 15px; /* Padding for the button-like appearance */
+    background-color: #007BFF; /* Button color */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s; /* Smooth transitions */
+}
+
+.nav-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+</style>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Logo" class="logo">
+        </div>
+        <h1 class="products-heading">About Us</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="home.html" class="nav-btn">Home</a></li>
+                <li><a href="products.html" class="nav-btn">Products</a></li>
+                <li><a href="about.html" class="nav-btn">About</a></li>
+                <li><a href="cart.html" class="nav-btn">Cart</a></li>
+                <li><a href="account.html" class="nav-btn">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="about-container">
+        <h2>Welcome to Mikeyy | E-Commerce Website</h2>
+        <p>
+            At Our E-Commerce Website, we are committed to providing our customers with a seamless online shopping experience. We offer a wide variety of products ranging from electronics to clothing, all at competitive prices.
+        </p>
+        <p>
+            Our mission is to deliver high-quality products and exceptional customer service. We believe that shopping online should be easy, enjoyable, and safe. That's why we have invested in creating a user-friendly platform that ensures security and convenience for all our users.
+        </p>
+        <p>
+            With a dedicated team of professionals, we strive to curate a diverse selection of products that cater to the needs of our customers. We are constantly updating our inventory to include the latest trends and innovations.
+        </p>
+        <p>
+            Thank you for choosing Mikeyy | E-Commerce Website. We look forward to serving you!
+        </p>
+    </main>
+
+    <footer>
+        <p><center>&copy; 2024 Mikeyy | E-Commerce Website></center></p>
+    </footer>
+</body>
+</html>
